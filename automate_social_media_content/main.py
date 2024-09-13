@@ -6,8 +6,8 @@ from mako.template import Template
 
 
 def main():
-    # Set default YAML path to 'PyLadies_Dublin_April_21/profile_pythonduckling.yaml'
-    default_yaml_path = '/PyLadies_Dublin_April_21/profile_pythonduckling.yaml'
+    # Set default YAML path to 'automate_social_media_content/profile_pythonduckling.yaml'
+    default_yaml_path = '/automate_social_media_content/profile_pythonduckling.yaml'
 
     # Create argument parser and set default argument
     parser = argparse.ArgumentParser(description='Take yaml and outputs SM posts')
