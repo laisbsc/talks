@@ -4,14 +4,14 @@ _PyCon Portugal 2026 · Laís Carvalho ([@lais_bsc](https://twitter.com/lais_bsc
 
 ## The talk
 
-Slop is output that is **fluent, plausible, and untethered from intent**. Not necessarily wrong — just off. This talk walks through _why_ language models produce it, and what we can do about it as the people driving them.
+Slop is output that is **fluent, plausible, copmplete, and untethered from intent**. Not necessarily wrong, just _feels off_. This talk walks through _why_ language models produce it, and what we can do about it as the people driving them.
 
 The journey runs through four acts:
 
-- **Why slop happens.** From a 15-line Markov chain that faked Guardian headlines in 2020, to Word2Vec vector spaces, to Hofstadter's three levels of a message — and why a model that never fails to decode still fails to decode _your_ intent.
-- **What you can fix yourself.** Vocabulary, skills and plugins, `AGENTS.md`, connectors, and MCP. Practical unhobbling for the model you already have.
-- **You stop pasting.** The same prompt run twice — same model, same words, only the reach changed. Slop isn't only a prompt problem; it's a system-around-the-prompt problem.
-- **So what's our job?** Define the problem, set the constraints, define good, verify the results, take responsibility. You can only delegate as far as your verifier reaches.
+- **Why slop happens.** From a 15-line Markov chain that faked Guardian headlines in 2020, to Word2Vec vector spaces, to Hofstadter's three levels of a message, and why a model that never fails to decode still fails to decode _your_ intent.
+- **What you can fix yourself.** Vocabulary, skills and plugins, `AGENTS.md`, connectors, and MCP. Practical unhobbling for the model you already use.
+- **Demo**: A support agent ran twice with the same prompt. Same model, same words, only the reach changed. Slop isn't only a prompt problem; it's a system-around-the-prompt problem.
+- **So what's our job?** Define the problem, set the constraints, define good, verify the results, take responsibility. You can only delegate as far as your verification loop reaches.
 
 ## Slides
 
@@ -25,6 +25,6 @@ The journey runs through four acts:
 
 ## About
 
-Laís Carvalho is a developer advocate at Pydantic, a PSF Fellow and Community Service Award recipient, EuroPython Fellow, and long-time Python community organiser. She is currently running for the PSF board.
+Laís Carvalho is a developer advocate at Pydantic Logfire, the company behind Pydantic validation. A PSF Fellow and Community Service Award recipient, EuroPython Fellow, and long-time Python community organiser. She is currently running for the PSF board.
 
 _Obrigada, PyCon PT!_
