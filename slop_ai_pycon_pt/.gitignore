@@ -1,0 +1,9 @@
+.venv/
+.DS_Store
+__pycache__/
+*.pyc
+
+# GloVe vectors — 347MB, exceeds GitHub file size limit.
+# Fetch with demo_word2vec/download_txt.py.
+glove.6B.100d.txt
+glove.6B.zip
